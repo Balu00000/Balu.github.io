@@ -1,0 +1,11 @@
+body{
+    background-image: url(https://wallpapers.com/images/featured/cup-of-coffee-4tc627vmaw0tiqiv.jpg);
+    background-size: cover;
+}
+
+img{
+    display: block;
+    height: 50px;
+    width: 100px;
+    float: left;
+}
