@@ -1,11 +1,37 @@
 body{
     background-image: url(https://wallpapers.com/images/featured/cup-of-coffee-4tc627vmaw0tiqiv.jpg);
     background-size: cover;
+    
 }
 
 img{
     display: block;
+    height: 200px;
+}
+
+a{
+    color: hotpink;
+    text-decoration: none;
+}
+
+span.pic{
+    display: block;
     height: 50px;
     width: 100px;
     float: left;
+}
+
+.container{
+    background-color: rgba(49, 57, 77);
+}
+
+.item{
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
 }
