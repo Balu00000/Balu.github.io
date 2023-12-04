@@ -9,15 +9,35 @@ img{
     height: 200px;
 }
 
-a{
+
+/* unvisited link */
+a:link {
     color: hotpink;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: lime;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: khaki;
     text-decoration: none;
 }
 
 span.pic{
     display: block;
-    height: 50px;
-    width: 100px;
+    height: 100x;
+    width: 150px;
     float: left;
 }
 
