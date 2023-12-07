@@ -1,7 +1,6 @@
 body{
-    background-image: url(https://wallpapers.com/images/featured/cup-of-coffee-4tc627vmaw0tiqiv.jpg);
+    background-color: rgba(49, 57, 77) !important;
     background-size: cover;
-    
 }
 
 img{
@@ -12,38 +11,36 @@ img{
 
 /* unvisited link */
 a:link {
-    color: hotpink;
+    color: chocolate;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: lime;
+    color: lightblue;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: yellow;
+    color: orchid;
     text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: khaki;
+    color: darkgray;
     text-decoration: none;
 }
 
 span.pic{
     display: block;
-    height: 100x;
-    width: 150px;
+    height: 70x;
+    width: 130px;
     float: left;
 }
 
-.container{
-    background-color: rgba(49, 57, 77);
-}
+
 
 .item{
     width:200px;
